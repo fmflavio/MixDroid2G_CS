@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+<!--     nome do aplicativo ou pagina -->
+    <string name="app_name">MixDroid 2G CS</string>
+    <string name="app_name_mixagem">MixDroid 2G CS - Player de Mixagem</string>
+    <string name="app_name_configuracao">MixDroid 2G CS - Configurações</string>
+    <string name="app_name_edicao">MixDroid 2G CS - Edição</string>
+<!--     comandos do menu -->
+    <string name="pararTudo">Parar todas e Atualizar</string>
+	<string name="config">Configurações</string>
+	<string name="tutorial">Tutorial</string>
+	<string name="sobre">Sobre</string>    
+	<string name="aba_manipulacao">Manipulação</string>
+	<string name="aba_edicao">Edição</string>
+<!--     linhas de texto -->
+    <string name="txtSobre">Núcleo Amazônico de Pesquisa Musical\n
+					        Grupo de Música Ubíqua\n
+					        Desenvolvido por Flávio Miranda de Farias (IFAC)\n
+					        Versão 2.5 - Beta - 2014</string>
+	<string name="texto_tutorial">[Ações básicas]\n
+								  #1 toque em qualquer lugar na linha para tocar.\n
+								  #1 segundo toque na mesma linha para parar.\n
+								  [Ações secundárias]\n
+								  #Mantenha pressionada a linha para abrir as opções.\n
+								  [Outras opções]\n
+								  #Pressionar o botão menu do aparelho para mais opções.\n
+								  #Botão Gravar para gravar os sons em execução.\n
+								  #Botão MIC para ativar ou desativar a gravação com microfone do aparelho.
+    </string>				        
+	<string name="pasta_musicas">Pasta para carregamento de músicas</string>
+	<string name="pasta_gravacao">Pasta para gravação das mixagens</string>
+	<string name="tela_config">Tela de preferências do usuário</string>
+	<string name="titulo_gravacao">Console de gravação</string>
+    <string name="tv_manipulacao">Manipulação em tempo de execução:</string>
+    <string name="tv_edicao">Edição do arquivo Csound:</string>
+    <string name="tv_controleVolume">Controle de Volume</string>
+    <string name="formato_mp3">MP3 - COMPACTO E POPULAR</string>
+    <string name="formato_WAV">WAV - PADRÃO</string>
+    <string name="deseja_salvar">Gostaria de salvar as alteração?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="edicao_textual_suportado">Edição textual suportado somente para o formato csd\nFormato atual é: </string>
+    <string name="gravacao_modo">Gravação - MODO </string>
+    <string name="gravacao_modo_xml">Gravação - MODO MIXAGEM XML</string>
+    <string name="gravacao_modo_mixagem">Gravação - MODO MIXAGEM </string>
+    <string name="gravacao_gravando">Gravação - GRAVANDO MIXAGEM </string>
+    <string name="gravacao_gravando_xml">Gravação - GRAVANDO MIXAGEM EM XML</string>
+    <string name="gravacao_salva_xml">Gravação - MIXAGEM SALVA EM XML</string>
+    <string name="gravacao_microfone_ativada">Gravação com Microfone ATIVADA</string>
+    <string name="gravacao_microfone_desativado">Gravação com Microfone DESATIVADA - Csound não compativel.</string>
+    <string name="tempo_cronometro"> TEMPO-</string>
+    <string name="salva"> SALVA</string>
+    <string name="todas_musicas_paradas">Todas os sons foram paradas</string>
+    <string name="msg_pasta_vazia">Pasta de Músicas Vazia.</string>
+    <string name="msg_qual_acao">Qual ação desejada para este som?</string>
+    <string name="apagar">Apagar</string>
+    <string name="editar">Editar</string>
+    <string name="msg_arquivo_excluido">Arquivo excluido do armazenamento.</string>
+    <string name="msg_arquivo_nao_excluido">Não foi possível excluir o arquivo.</string>
+    <string name="msg_tutorial_basico">Tutorial básico.</string>
+<!-- 	sucessos e erros	 -->
+    <string name="salvo_com_sucesso">Salvo com sucesso!\nA mudança de pasta só terá efeito com o reinício do programa.</string>
+    <string name="gravacao_concluida">Gravação concluida.</string>
+    <string name="erro_1">Erro!\nÉ necessário / no início e final\nNão foi possível a criação da pasta.</string>
+    <string name="erro_2">Erro ao ler arquivo.</string>
+    <string name="erro_3">Erro na gravação: </string>
+    <string name="erro_4">Erro!\nNão foi possível criar pasta para as músicas ou gravações!\nVerifique seu cartão de memória.</string>
+<!-- 	imagens	 -->
+	<string name="logoIFAC">Logo IFAC</string>
+	<string name="logoNAP">Logo NAP</string>
+	<string name="logoINF">Logo INF</string>
+	<string name="logoCONFIG">Logo de configuração</string>
+	<string name="img_tutorial">Tutorial de ações básicas.</string>
+<!-- 	botões -->
+	<string name="avancar">Avançar</string>
+	<string name="imagemButtonPlay">Executar</string>
+	<string name="botao_salvar">Salvar</string>
+	<string name="bt_gravar">Gravar</string>
+	<string name="bt_ouvir_gravacao">Ouvir</string>
+	<string name="bt_retornar">Retornar</string>
+	<string name="bt_tocar">Tocar</string>
+	<string name="bt_cancelar">Cancelar</string>
+	<string name="bt_fechar">Fechar</string>
+	<string name="bt_parar">Parar</string>
+<!--     EditText -->	
+	<string name="editTextEnderecoMusicas">/MixDroidSongs/</string>
+	<string name="editTextEnderecoGravacao">/MixDroidRecords/</string>
+	<string name="escolhaFormatoGravacao">Escolha o formato da Gravação.</string>
+	<string name="Escolha_se_microfone_ativado">Escolha o modo de gravação: com ou sem microfone.</string>
+<!--     Cores -->
+	<color name="black">#000</color>
+    <color name="blue">#00f</color>
+    <color name="red">#f00</color>
+	<color name="yellow1">#F9E60E</color>
+	<color name="yellow2">#F9F89D</color>
+	<color name="orange4">#F7BE45</color>
+	<color name="orange5">#F7D896</color>
+	<color name="blue2">#19FCDA</color>
+	<color name="blue25">#D9F7F2</color>
+	<color name="blue3">#0FECFF</color>
+	<color name="grey05">#ACA899</color>
+	<color name="white1">#FFFFFF</color>
+	<color name="white2">#DDDDDD</color>
+</resources>

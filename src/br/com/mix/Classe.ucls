@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.6" icons="false" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="false">  
+  <class id="1" language="java" name="br.com.mix.GerenciaCsound" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/GerenciaCsound.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1007" y="1207"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="br.com.mix.MusicasAdapter" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/MusicasAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="139" y="683"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="br.com.mix.BaseCsoundActivity" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/BaseCsoundActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="152" y="197"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="br.com.mix.CarregaListagem" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/CarregaListagem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="359" y="753"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="br.com.mix.GravaXML" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/GravaXML.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="528" y="899"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="br.com.mix.PropriedadesMusica" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/PropriedadesMusica.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="346" y="1169"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="br.com.mix.Agendamento.ExecutandoTarefa" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/Agendamento.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="550" y="1299"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="br.com.mix.Config" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/Config.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="371" y="406"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="br.com.mix.Inicial" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/Inicial.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1044" y="182"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="br.com.mix.Principal" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/Principal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="738" y="471"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="br.com.mix.Musica" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/Musica.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1238" y="1188"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="br.com.mix.Agendamento" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/Agendamento.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="559" y="1156"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="br.com.mix.MusicasAdapter.Holder" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/MusicasAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="135" y="1144"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="br.com.mix.GravaAudioWAV" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/GravaAudioWAV.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="996" y="669"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="br.com.mix.GravaAudioMP3" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/GravaAudioMP3.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1243" y="675"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="br.com.mix.GerenciaSom" project="MixDroid2G_CS" 
+    file="/MixDroid2G_CS/src/br/com/mix/GerenciaSom.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="788" y="1180"/>    
+    <display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="17">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="18" name="adapter"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <bendpoint x="907" y="999"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="21" name="musica"/>      
+      <multiplicity id="22" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="24">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="25" name="gravaXML"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="27">    
+    <bendpoint x="982" y="971"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="28" name="musica"/>      
+      <multiplicity id="29" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="30">    
+    <bendpoint x="1002" y="971"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="31" name="executando"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="33">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="34">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="35" name="stateList"/>      
+      <multiplicity id="36" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="37">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="38" name="gerenciaSom"/>      
+      <multiplicity id="39" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="40">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <association id="41">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="42" name="csounds"/>      
+      <multiplicity id="43" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="45" name="gravaAudioMP3"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="48">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="49" name="gerenciaSom"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="51">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="52">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="53" name="musica"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="56">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="57" name="gravaAudioWAV"/>      
+      <multiplicity id="58" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="60" name="carregaListagem"/>      
+      <multiplicity id="61" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="62">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="63">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="64" name="gerenciaSom"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="66">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="67" name="musica"/>      
+      <multiplicity id="68" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="true" initial-value="false" signature="false" 
+    accessors="true" visibility="false">    
+    <attributes public="true" package="true" protected="false" private="true" static="true"/>    
+    <operations public="true" package="true" protected="false" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="false"/>
+</class-diagram>

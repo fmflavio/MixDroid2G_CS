@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/modeloLinha"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@layout/contorno_linha" >
+
+        <TextView
+            android:id="@+id/displayname"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/duration"
+            android:background="@color/blue3"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/displayname"
+            android:layout_below="@+id/displayname"
+            android:layout_toLeftOf="@+id/duration"
+            android:background="@color/white2"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/title"
+            android:layout_alignBottom="@+id/title"
+            android:layout_toLeftOf="@+id/playListCust"
+            android:background="@color/blue25"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/playListCust"
+            android:contentDescription="@string/imagemButtonPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTempo"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/title"
+            android:minHeight="12dip"
+            android:minWidth="36dp"/>
+
+        <TextView
+            android:id="@+id/endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/progressBarTempo"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible" />
+        
+         <TextView
+            android:id="@+id/formato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/endereco"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+

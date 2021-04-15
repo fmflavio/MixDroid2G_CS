@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/painel_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools" tools:ignore="UselessParent">
+
+    <ListView
+        android:id="@+id/listViewPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.43" >
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/painel_gravacao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="bottom" >
+
+            <Button
+                android:id="@+id/bt_gravar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@layout/anima_botao"
+                android:src="@android:drawable/ic_media_play"
+                android:text="@string/bt_gravar" />
+
+            <Button
+                android:id="@+id/bt_ouvir_gravacao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/tb_microfone_princ"
+                android:layout_toStartOf="@+id/tb_microfone_princ"
+                android:background="@layout/anima_botao"
+                android:text="@string/bt_ouvir_gravacao" />
+
+            <ToggleButton
+                android:id="@+id/tb_microfone_princ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/bt_gravar"
+                android:layout_toStartOf="@+id/bt_gravar"
+                android:checked="true"
+                android:textOff="MIC OFF"
+                android:textOn="MIC ON" />
+
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bt_gravar"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:background="@color/blue25" />
+
+            <TextView
+                android:id="@+id/informa_gravacao"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/chronometer"
+                android:layout_toLeftOf="@+id/chronometer"
+                android:layout_toStartOf="@+id/chronometer"
+                android:ellipsize="middle"
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="@string/titulo_gravacao"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

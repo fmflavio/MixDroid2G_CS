@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Inicial"
+    tools:ignore="RtlHardcoded" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutUniversidades"
+        android:layout_width="fill_parent"
+        android:layout_height="140sp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5sp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgLogoNAP"
+            android:layout_width="128dp"
+            android:layout_height="150dp"
+            android:layout_margin="5sp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/logoNAP"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_nap" />
+
+        <ImageView
+            android:id="@+id/imgLogoInf"
+            android:layout_width="134dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/logoINF"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo_inf_ufrgs" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutLCM"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/bt_avancar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/anima_botao"
+            android:text="@string/avancar" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgLogoIfac"
+        android:layout_width="134dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/LinearLayoutUniversidades"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5sp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/logoIFAC"
+        android:src="@drawable/logo_ifac" />
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tela_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tela_config"
+        android:text="@string/tela_config"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextEnderecoMusicas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextView_pasta_musicas"
+        android:ems="10"
+        android:hint="@string/editTextEnderecoMusicas"
+        android:text="@string/editTextEnderecoMusicas"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/TextView_pasta_musicas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextView_pasta_musicas"
+        android:layout_marginTop="56dp"
+        android:text="@string/pasta_musicas" />
+
+    <ImageView
+        android:id="@+id/icon_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/logoCONFIG"
+        android:src="@drawable/icon_config" />
+
+    <EditText
+        android:id="@+id/editTextEnderecoGravacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextView_pasta_gravacao"
+        android:ems="10"
+        android:hint="@string/editTextEnderecoGravacao"
+        android:text="@string/editTextEnderecoGravacao"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/TextView_pasta_gravacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextEnderecoMusicas"
+        android:text="@string/pasta_gravacao" />
+
+    <Button
+        android:id="@+id/buttonSalvarConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@layout/anima_botao"
+        android:text="@string/botao_salvar" />
+
+    <TextView
+        android:id="@+id/TextView_formato_gravacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tb_microfone_conf"
+        android:text="@string/escolhaFormatoGravacao" />
+
+    <Spinner
+        android:id="@+id/spinner_formato_gravacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextView_formato_gravacao"
+        android:textColor="@color/blue"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView_microfone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextEnderecoGravacao"
+        android:text="@string/Escolha_se_microfone_ativado" />
+
+    <ToggleButton
+        android:id="@+id/tb_microfone_conf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView_microfone"
+        android:layout_centerHorizontal="true"
+        android:checked="true"
+        android:textOff="MIC OFF"
+        android:textOn="MIC ON" />
+
+</RelativeLayout>

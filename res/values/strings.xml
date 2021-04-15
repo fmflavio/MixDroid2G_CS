@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+<!--     nome do aplicativo ou pagina -->
+    <string name="app_name">MixDroid 2G CS</string>
+    <string name="app_name_mixagem">MixDroid 2G CS - Mixing Panel</string>
+    <string name="app_name_configuracao">MixDroid 2G CS - settings</string>
+    <string name="app_name_edicao">MixDroid 2G CS - edition</string>
+<!--     comandos do menu -->
+    <string name="pararTudo">Stop and update all</string>
+	<string name="config">Settings</string>
+	<string name="tutorial">Tutorial</string>
+	<string name="sobre">About</string>    
+	<string name="aba_manipulacao">Manipulation</string>
+	<string name="aba_edicao">Edition</string>
+<!--     linhas de texto -->
+    <string name="txtSobre">Amazon Center of Musical Research\n
+					        Ubiquitous Music Group\n
+					        Developed by Flávio Miranda de Farias (IFAC)\n
+					        Version 2.5 - Beta - 2014</string>
+	<string name="texto_tutorial">[Basic actions]\n 
+									#1 Touch anywhere on the line to play.\n
+									#1 seconds touch the same line to stop.\n
+									[Secondary actions]\n
+									#Hold the line to open the options.\n
+									[Other options]\n
+									#Press the system menu button for more options.\n
+									#Record button to record the sounds running.\n
+									#MIC button to enable or disable the microphone recording device.
+    </string>
+	<string name="pasta_musicas">Folder for loading songs</string>
+	<string name="pasta_gravacao">Folder to record the mixes</string>
+	<string name="tela_config">Screen user preferences</string>
+	<string name="titulo_gravacao">Recording console</string>
+    <string name="tv_manipulacao">Manipulation at runtime:</string>
+    <string name="tv_edicao">Csound file edition:</string>
+    <string name="tv_controleVolume">Volume Control</string>
+    <string name="formato_mp3">MP3 - COMPACT AND POPULAR</string>
+    <string name="formato_WAV">WAV - STANDARD</string>
+    <string name="deseja_salvar">Would you like to save these changes?</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="edicao_textual_suportado">Textual editing supported only for the format csd\nCurrent format is: </string>
+    <string name="gravacao_modo">Recording - MODE </string>
+    <string name="gravacao_modo_xml">Recording - MIXING MODE XML</string>
+    <string name="gravacao_modo_mixagem">Recording - MIXING MODE </string>
+    <string name="gravacao_gravando">Recording - RECORDING MIXING </string>
+    <string name="gravacao_gravando_xml">Recording - RECORDING MIXING IN XML</string>
+    <string name="gravacao_salva_xml">Recording - SAVED ON MIXING XML</string>
+    <string name="gravacao_microfone_ativada">Microphone recording ENABLED</string>
+    <string name="gravacao_microfone_desativado">Microphone recording DISABLED - not compatible Csound.</string>
+    <string name="tempo_cronometro"> TIME-</string>
+    <string name="salva"> SAVE.</string>
+    <string name="todas_musicas_paradas">All the sound has been interrupted</string>
+    <string name="msg_pasta_vazia">Empty Music folder.</string>
+    <string name="msg_qual_acao">What would you like to do this sound?</string>
+    <string name="apagar">Delete</string>
+    <string name="editar">Edit</string>
+    <string name="msg_arquivo_excluido">Deleted file from storage.</string>
+    <string name="msg_arquivo_nao_excluido">It is not possible to delete the file.</string>
+    <string name="msg_tutorial_basico">Basic tutorial.</string>
+<!-- 	sucessos e erros	 -->
+    <string name="salvo_com_sucesso">Successfully saved!\nThe folder change will only take effect after restarting the program.</string>
+    <string name="gravacao_concluida">The recording is completed.</string>
+    <string name="erro_1">Error!\nIt is necessary to put / at the beginning and in the end\nIt was not possible to create the folder.</string>
+    <string name="erro_2">Can not read the file.</string>
+    <string name="erro_3">Recording error: </string>
+    <string name="erro_4">Error!\nUnable to create folder for music or recording!\nCheck your memory card.</string>
+<!-- 	imagens	 -->
+	<string name="logoIFAC">Logo IFAC</string>
+	<string name="logoNAP">Logo NAP</string>
+	<string name="logoINF">Logo INF</string>
+	<string name="logoCONFIG">Configuration logo</string>
+	<string name="img_tutorial">Basic action tutorial.</string>
+	<string name="imagemButtonPlay">Execute</string>
+<!-- 	botões -->
+	<string name="avancar">Next</string>
+	<string name="botao_salvar">Save</string>
+	<string name="bt_gravar">Record</string>
+	<string name="bt_ouvir_gravacao">Listen</string>
+	<string name="bt_retornar">Back</string>
+	<string name="bt_tocar">Play</string>
+	<string name="bt_cancelar">Cancel</string>
+	<string name="bt_fechar">Close</string>
+	<string name="bt_parar">Stop</string>
+<!--     EditText -->	
+	<string name="editTextEnderecoMusicas">/MixDroidSongs/</string>
+	<string name="editTextEnderecoGravacao">/MixDroidRecords/</string>
+	<string name="escolhaFormatoGravacao">Choose the format of recording.</string>
+	<string name="Escolha_se_microfone_ativado">Select the recording mode: with or without microphone.</string>
+<!--     Cores -->
+	<color name="black">#000</color>
+    <color name="blue">#00f</color>
+    <color name="red">#f00</color>
+	<color name="yellow1">#F9E60E</color>
+	<color name="yellow2">#F9F89D</color>
+	<color name="orange4">#F7BE45</color>
+	<color name="orange5">#F7D896</color>
+	<color name="blue2">#19FCDA</color>
+	<color name="blue25">#D9F7F2</color>
+	<color name="blue3">#0FECFF</color>
+	<color name="grey05">#ACA899</color>
+	<color name="white1">#FFFFFF</color>
+	<color name="white2">#DDDDDD</color>
+</resources>
