@@ -18,6 +18,16 @@ Por se tratar de uma versão antiga, não é possivel disponibilizar na loja pla
  
 Atualmente o app encontra-se descontinuado devido a problemas encontrados na migração para as atuais plataformas de desenvolvimento para Android
  
+# Licença
+ 
+Disponibilizo essa aplicação publicamente segundo as regras GNU General Public License 3.0.
+Porém peço que caso utilizem para publicações, referenciem-me algum destes trabalhos relacionados:
+https://www.igi-global.com/article/bringing-aesthetic-interaction-into-creativity-centered-design/149961
+https://lume.ufrgs.br/handle/10183/134340
+ou em
+https://scholar.google.com/citations?user=Ati9O3sAAAAJ&hl=pt-BR
+
+
 # Projetos futuros
  
 Espera-se após a conclusão do Doutorado no segundo semestre de 2022 o desenvolvimento e reimaginação do mesmo em sua terceira versão com as tecnologias da epoca. 
